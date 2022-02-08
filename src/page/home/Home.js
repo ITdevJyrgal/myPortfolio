@@ -1,5 +1,6 @@
 import React from 'react';
 import Date from "./Date"
+import Cards from "./Cards";
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
                                     return (
                                         <div className="col-6">
                                             <div className="home-general__block">
+
                                                 <h1 className="home-general__title">{el.title}</h1>
                                                 <p className="home-general__item">{el.item}</p>
                                                 <img src={el.image} alt="" className="home-general__img"/>
@@ -28,8 +30,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-
-
+            <Cards/>
         </div>
     );
 };

@@ -7,20 +7,21 @@ body {
   padding-top: 100px;
 
   &-general {
+    margin-bottom: 16%;
 
     &__titles {
       font-family: "Montserrat", sans-serif;
       font-weight: 700;
     }
+
     &__block {
       width: 90%;
       height: 300px;
-      border: 1px solid #000;
     }
 
     &__img {
       border-radius: 5px;
-      margin-left:0;
+      margin-left: 10%;
     }
 
     &__title {
@@ -28,10 +29,11 @@ body {
       font-weight: 700;
       font-family: "Montserrat", sans-serif;
     }
-&__item {
-  font-weight: 600;
-  font-family: "Montserrat", sans-serif;
 
-}
+    &__item {
+      font-weight: 600;
+      font-family: "Montserrat", sans-serif;
+
+    }
   }
 }
