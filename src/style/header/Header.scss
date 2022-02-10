@@ -4,7 +4,8 @@
   width: 100%;
   z-index: 234;
   padding: 15px 0;
-  background: linear-gradient(#626262, #2d2c2c);
+  background: rgba(136, 133, 133, 0.82);
+  box-shadow: 0 14px 20px 10px rgba(250, 250, 250, 0.25);
 
   &-general {
     display: flex;
@@ -20,34 +21,25 @@
       height: 100%;
     }
 
-    &__nav {
-      padding: 0 20px;
+    &__logo2 {
+      padding-left: 20px;
       color: white;
-      font-size: 20px;
+      font-size: 24px;
+    }
+
+    &__nav {
+      padding: 0 50px;
+      color: white;
+      font-size: 17px;
       font-weight: 700;
       font-family: "Montserrat", sans-serif;
       text-transform: uppercase;
       border: none;
-      transition: .2s;
-
+      transition: .3s;
+      overflow: hidden;
       &:hover {
         color: black;
-      }
-    }
-
-    &__btn {
-      padding: 7px 25px;
-      border: 1px solid #fff;
-      border-radius: 1rem;
-      font-weight: 700;
-      font-size: 20px;
-      color: white;
-      background: transparent;
-      transition: .4s;
-      text-transform: uppercase;
-
-      &:hover {
-        background: #000;
+        border-bottom: 1.3px solid  #22d5d5;
       }
     }
 

@@ -1,0 +1,67 @@
+.hero {
+  background: #222222;
+  padding-top: 10%;
+
+  &-general {
+    &__title {
+      font-size: 50px;
+      color: white;
+      width: 80%;
+      margin-bottom: 20px;
+      font-family: Montserrat sans-serif;
+    }
+
+    &__item {
+      font-size: 23px;
+      color: #d0caca;
+      width: 70%;
+      margin-bottom: 30px;
+      font-family: Montserrat sans-serif;
+    }
+
+    &__btn {
+      padding: 10px 30px;
+      background: linear-gradient(87.32deg, #22d5d5 4.47%, #091e1b 95.53%);
+      box-shadow: 0 2px 20px 10px rgba(0, 226, 192, 0.48);
+      border-radius: 6px;
+      border: none;
+      color: white;
+      font-size: 20px;
+      transition: .4s;
+      margin-bottom: 20px;
+      font-family: Montserrat sans-serif;
+      &:hover {
+        background: linear-gradient(87.32deg, #091e1b 4.47%, #22d5d5 95.53%);
+        color: black;
+        transform: scale(1.1);
+      }
+    }
+
+    &__square {
+      width: 400px;
+      height: 400px;
+      border-radius: 50%;
+      border: 30px solid #22d5d5;
+      margin: -40px 101px;
+      box-shadow: 0 2px 40px rgb(6, 248, 240);
+
+    }
+
+    &__block {
+      margin-top: -55%;
+      width: 90%;
+      height: 300px;
+      border: 1px solid #fff;
+      overflow: hidden;
+      padding: 10px 10px;
+      border-radius: 1rem;
+      margin-bottom: 100px;
+    }
+
+    &__img {
+      width: 101%;
+      height: 145%;
+
+    }
+  }
+}
